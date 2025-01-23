@@ -9,3 +9,9 @@
 .CardTitle {
   @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
 }
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    background: transparent;
+  }
+}
